@@ -1,0 +1,6 @@
+model,conv_type,use_se,act_type,norm_type,params_M,macs_M,best_test_acc,train_time_s
+Baseline (Standard Conv + BN + ReLU),standard,False,relu,bn,0.0942,7.6344,0.8841,412.3
+Depthwise Separable,dw,False,relu,bn,0.0129,1.1029,0.835,353.9
+SE Attention,standard,True,relu,bn,0.0996,7.6839,0.8846,410.4
+GELU Activation,standard,False,gelu,bn,0.0942,7.6344,0.8899,402.6
+GroupNorm,standard,False,relu,gn,0.0942,7.4588,0.8701,397.3

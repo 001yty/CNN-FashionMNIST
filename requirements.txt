@@ -1,0 +1,9 @@
+# Python >= 3.9
+# 在 Windows 10/11 + CPU + Anaconda 环境下验证通过
+
+torch>=2.0
+torchvision>=0.15
+thop>=0.1.1
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.5
